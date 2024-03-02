@@ -21,7 +21,7 @@
 
 }
 .logo{
-    background-image: url("Images/amazon_logo.png");
+    background-image: url("../Images/amazon_logo.png");
     width: 100px;
     height: 50px;
     background-size: cover;
@@ -155,7 +155,7 @@
 
 /** hero-section **/
 .hero-section{
-    background-image: url("Images/hero_section.jpg");
+    background-image: url("../Images/hero_section.jpg");
     background-size: cover;
     height: 350px;
     display: flex;
@@ -279,13 +279,15 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+/* Its a duplicate class , commenting it out.
 .logo{
     background-image: url("Images/amazon_logo.png");
     width: 100px;
     height: 50px;
     background-size: cover;
 }
-
+*/
 .panel4{
     height: 70px;
     background-color: #0f1111;
